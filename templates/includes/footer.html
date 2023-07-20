@@ -19,3 +19,21 @@
     </div><!-- //container -->
 </footer>
 <!-- ========================= FOOTER END // ========================= -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+
+<!-- product detail page multiple images -->
+
+<script>
+    $(document).ready(function(){
+        $('.thumb a').click(function(e){
+            e.preventDefault();
+            $('.mainimage img').attr('src',$(this).attr("href"));
+
+        })
+    })
+</script>
+    
+</body>
+</html>
